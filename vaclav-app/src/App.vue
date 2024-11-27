@@ -1,5 +1,9 @@
+<script setup>
+import sideMenu from './components/side-menu/Menu.vue'
+</script>
+
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div>
+    <sideMenu />
+  </div>
 </template>
