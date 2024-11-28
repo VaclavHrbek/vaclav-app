@@ -1,5 +1,4 @@
 <script setup>
-import { defineProps } from 'vue'
 
 const props = defineProps({
     label: String,
@@ -8,8 +7,8 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <div class="flex w-full ">
+        <button class="bg-gray-700 hover:bg-gray-500 text-white w-full font-bold py-2 px-4 rounded m-2">
             {{ label }}
         </button>
     </div>
