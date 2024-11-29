@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueform/vueform": "^1.11.0",
+    "mongodb": "^6.11.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {

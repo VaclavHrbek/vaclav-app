@@ -11,8 +11,8 @@ import Title from './Title.vue'
         <div class="m-4 mb-8">
             <Title />
         </div>
-        <Button label="ToDo" />
-        <Button label="About" />
-        <Button label="Contact" />
+        <Button label="Task List" />
+        <Button label="Add Task" />
+        <Button label="Remove Task" />
     </div>
 </template>

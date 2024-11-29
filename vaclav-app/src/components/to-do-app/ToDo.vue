@@ -1,5 +1,6 @@
 <script setup>
 import item from './Item.vue'
+import add_task from './add-task/AddTaskForm.vue'
 
 </script>
 
@@ -10,5 +11,6 @@ import item from './Item.vue'
             <item label="Task 2"/>
             <item label="Task 3"/>
         </ul>
+        <add_task />
     </div>
 </template>
